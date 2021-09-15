@@ -1,0 +1,91 @@
+/* -------  RESET ------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -------  LAYOUT ------- */
+
+body {
+  font-size: 1rem;
+  width: 960px;
+  background-color: hsl(0, 0%, 95%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+  padding: 1rem 0rem;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 0rem;
+  line-height: 2.18rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -------  BUTTON ------- */
+
+.button {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 1.5rem;
+  padding: 1rem 2.3rem;
+  font: 1rem 'Lexend Deca', sans-serif;
+  cursor: pointer;
+}
+
+.sedans-button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-button {
+  color: hsl(179, 100%, 13%);
+}
+
+.sep-button {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+/* -------  BACKGROUND BOX ------- */
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  padding: 3.5rem;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 3.5rem;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding: 3.5rem;
+}
+
+container {
+  display: flex;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.icon {
+  height: 4rem;
+}

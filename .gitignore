@@ -1,0 +1,8 @@
+*.sketch
+*.fig
+.DS_Store
+.prettierignore
+
+design/*
+!design/desktop-design.jpg
+readme
